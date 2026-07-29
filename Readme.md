@@ -1,8 +1,8 @@
 # 🛰️ Bluetooth Bridge for RadioMaster TX16S
-### (Optimized for Teleview Project & Teleview APP)
+### (Optimized for Teleview Project & Telemetrie Viewer APP)
 
 Dieses ESP32-Projekt realisiert ein Telemetrie-Gateway namens **Bluetooth Bridge** 
-speziell für das **Teleview-Projekt** und die **Teleview APP**. Es dient als 
+speziell für das **Teleview-Projekt** und die **Telemetrie Viewer APP**. Es dient als 
 Schnittstelle für die **RadioMaster TX16S** (EdgeTX/OpenTX).
 
 ### 🚨 Technischer Hintergrund:
@@ -47,7 +47,7 @@ Das Modul arbeitet als Echtzeit-Übersetzer im Hintergrund:
    damit das Teleview-Display Horizont und Akku korrekt darstellt.
 3. **Erweiterbar via LUA-Skripte:** Über Zusatzskripte (z. B. das beiliegende
    HoTT-Mirror V17) können auch andere Protokolle wie Graupner HoTT über den
-   ESP32 an die Teleview APP übergeben werden.
+   ESP32 an die Telemetrie Viewer APP übergeben werden.
 
 ---
 
@@ -113,7 +113,7 @@ Telemetriedaten korrekt an die Bluetooth Bridge zu übergeben.
 * **Funktionsweise im Flug:** Das Skript läuft nur dann im Hintergrund, wenn
   der zugewiesene Schalter auf **AN** steht. Es sammelt die HoTT-Werte im
   Sender-RAM, verpackt sie in das kompakte 10-Byte-Format und schiebt sie über
-  den UART2 an die Box, welche die Daten unzensiert an die Teleview APP streamt.
+  den UART2 an die Box, welche die Daten unzensiert an die Telemetrie Viewer APP streamt.
 
 
 ### Bedienung am Sender und Systemeinstellungen:
