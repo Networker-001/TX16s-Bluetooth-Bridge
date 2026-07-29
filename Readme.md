@@ -25,7 +25,7 @@ Lilygo T-Display-S3 Plus) und der **Telemetrie Viewer APP** für Mobiltelefone p
 ## 🚀 Features
 
 * 📺 **Teleview-Support:** Volle Kompatibilität mit dem externen
-  **Teleview-Modul** und der **Teleview APP** zur Darstellung von
+  **Teleview-Modul** und der **Telemetrie Viewer APP** zur Darstellung von
   Horizont- und Flugdaten.
 * 📻 **Dual-Bluetooth-Verbindung:** Unterstützt **BLE** und **Classic BT
   (Serial)** zur Anbindung unterschiedlicher Endgeräte.
