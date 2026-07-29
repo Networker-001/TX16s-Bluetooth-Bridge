@@ -18,7 +18,7 @@ Die Firmware filtert und verarbeitet die reinkommenden Telemetriedaten in
 Echtzeit direkt im RAM des ESP32. Sie isoliert die überlangen MPM-Statuspakete
 und reicht die Daten strukturiert an die Bluetooth-Schnittstelle weiter. Dies
 ermöglicht den fehlerfreien Betrieb des **Teleview-Moduls** (basierend auf dem
-Lilygo T-Display-S3 Plus) und der **Teleview APP** per Bluetooth.
+Lilygo T-Display-S3 Plus) und der **Telemetrie Viewer APP** für Mobiltelefone per Bluetooth.
 
 ---
 
