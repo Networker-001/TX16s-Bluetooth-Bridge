@@ -224,8 +224,4 @@ Zusätzliche Peripherie-Pins am MINI32 (Linke Reihe auf der Platine):
 **MIT License** - Frei für alle Freunde der TX16s!
 Der Code kann modifiziert, angepasst und für eigene Teleview-Systeme genutzt werden.
 
-## 📜 Lizenz
-
-**MIT License** - Frei für alle FPV-Pilotinnen und FPV-Piloten!
-Der Code kann modifiziert, angepasst und für eigene Teleview-Systeme genutzt werden.
 
