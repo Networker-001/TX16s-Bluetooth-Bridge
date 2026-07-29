@@ -127,7 +127,7 @@ Telemetriedaten korrekt an die Bluetooth Bridge zu übergeben.
    * **Für das LUA-Einstelltool:** Stellen Sie den Port temporär auf **LUA**.
    * **Für den reinen Flugbetrieb:** Stellen Sie den Port fest auf **Telemetrie**
      (FrSky S.Port). Ausgenommen hiervon sind Fremdprotokolle wie Graupner HoTT,
-     die ihre Daten direkt über das V17-Zusatzskript einspeisen.
+     die ihre Daten direkt über das Zusatzskript einspeisen.
 
 2. **Starten des Konfigurations-Tools:**
    * Drücken Sie lange auf die **SYS-Taste**, um in das Menü zu gelangen.
