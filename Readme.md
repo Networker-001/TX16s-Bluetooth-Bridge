@@ -171,7 +171,7 @@ Fernsteuerung wird über ein trennbares Kabel mit einer 4-Pin XH-Buchse realisie
 
 ---
 
-## 🔌 Der MINI32-Anschluss-Steckbrief
+## 🔌 Der Anschluss-Steckbrief
 
 Exakte PIN-Belegung des Telemetriemoduls:
 
@@ -188,70 +188,41 @@ Zusätzliche Peripherie-Pins am MINI32 (Linke Reihe auf der Platine):
 
 ---
 
+### Bedienung am Sender und Systemeinstellungen:
+
+1. **Wichtige Hardware-Vorgabe im EdgeTX-Systemmenü:**
+   Bevor das Skript oder das Modul genutzt werden kann, müssen die internen
+   Hardware-Schnittstellen der TX16S korrekt konfiguriert sein:
+   * Gehen Sie über die **SYS-Taste** in die **Hardware-Einstellungen**.
+   * Suchen Sie den internen Anschluss (z. B. **UART2 / Bluetooth-Port**).
+   * Schalten Sie die **Spannungsversorgung (Power ON)** für diesen Port ein.
+   * **Für das LUA-Einstelltool:** Stellen Sie den Port temporär auf **LUA**.
+   * **Für den reinen Flugbetrieb:** Stellen Sie den Port fest auf **Telemetrie**
+     (FrSky S.Port). Ausgenommen hiervon sind Fremdprotokolle wie Graupner HoTT,
+     die ihre Daten direkt über das V17-Zusatzskript einspeisen.
+
+2. **Starten des Konfigurations-Tools:**
+   * Drücken Sie lange auf die **SYS-Taste**, um in das Menü zu gelangen.
+   * Wählen Sie über die Page-Tasten den Reiter **"Tools"** (Werkzeuge) aus.
+   * Starten Sie das Skript **"Bluetooth_Bridge"** über das Scrollrad.
+   * Hier können Sie nun den Bluetooth-Modus (BLE/Classic) wechseln, den
+     Sendernamen ändern, die 4-stellige PIN eintippen oder das serielle
+     Logging (`debug_telemetry`) ein- und ausschalten.
+   * Nach dem Druck auf **"Speichern & Senden"** wird der Befehl per Telemetrie
+     an den ESP32 geschickt. Dieser speichert die Werte im Flash und startet
+     automatisch neu.
+
+3. **Zurückschalten für den Flug:**
+   * Nach erfolgreicher PIN- oder Namensänderung muss der serielle Port im
+     Hardware-Menü der TX16S wieder von *LUA* zurück auf *Telemetrie* gestellt
+     werden, damit der reguläre Telemetrie-Datenstrom zum ESP32 fließt.
+
+
+
 ## 📜 Lizenz
 
-**MIT License** - Frei für alle FPV-Pilotinnen und FPV-Piloten!
+**MIT License** - Frei für alle Freunde der TX16s!
 Der Code kann modifiziert, angepasst und für eigene Teleview-Systeme genutzt werden.
-
-
-### Bedienung am Sender und Systemeinstellungen:
-
-1. **Wichtige Hardware-Vorgabe im EdgeTX-Systemmenü:**
-   Bevor das Skript oder das Modul genutzt werden kann, müssen die internen
-   Hardware-Schnittstellen der TX16S korrekt konfiguriert sein:
-   * Gehen Sie über die **SYS-Taste** in die **Hardware-Einstellungen**.
-   * Suchen Sie den internen Anschluss (z. B. **UART2 / Bluetooth-Port**).
-   * Schalten Sie die **Spannungsversorgung (Power ON)** für diesen Port ein.
-   * **Für das LUA-Einstelltool:** Stellen Sie den Port temporär auf **LUA**.
-   * **Für den reinen Flugbetrieb:** Stellen Sie den Port fest auf **Telemetrie**
-     (FrSky S.Port). Ausgenommen hiervon sind Fremdprotokolle wie Graupner HoTT,
-     die ihre Daten direkt über das V17-Zusatzskript einspeisen.
-
-2. **Starten des Konfigurations-Tools:**
-   * Drücken Sie lange auf die **SYS-Taste**, um in das Menü zu gelangen.
-   * Wählen Sie über die Page-Tasten den Reiter **"Tools"** (Werkzeuge) aus.
-   * Starten Sie das Skript **"Bluetooth_Bridge"** über das Scrollrad.
-   * Hier können Sie nun den Bluetooth-Modus (BLE/Classic) wechseln, den
-     Sendernamen ändern, die 4-stellige PIN eintippen oder das serielle
-     Logging (`debug_telemetry`) ein- und ausschalten.
-   * Nach dem Druck auf **"Speichern & Senden"** wird der Befehl per Telemetrie
-     an den ESP32 geschickt. Dieser speichert die Werte im Flash und startet
-     automatisch neu.
-
-3. **Zurückschalten für den Flug:**
-   * Nach erfolgreicher PIN- oder Namensänderung muss der serielle Port im
-     Hardware-Menü der TX16S wieder von *LUA* zurück auf *Telemetrie* gestellt
-     werden, damit der reguläre Telemetrie-Datenstrom zum ESP32 fließt.
-
-### Bedienung am Sender und Systemeinstellungen:
-
-1. **Wichtige Hardware-Vorgabe im EdgeTX-Systemmenü:**
-   Bevor das Skript oder das Modul genutzt werden kann, müssen die internen
-   Hardware-Schnittstellen der TX16S korrekt konfiguriert sein:
-   * Gehen Sie über die **SYS-Taste** in die **Hardware-Einstellungen**.
-   * Suchen Sie den internen Anschluss (z. B. **UART2 / Bluetooth-Port**).
-   * Schalten Sie die **Spannungsversorgung (Power ON)** für diesen Port ein.
-   * **Für das LUA-Einstelltool:** Stellen Sie den Port temporär auf **LUA**.
-   * **Für den reinen Flugbetrieb:** Stellen Sie den Port fest auf **Telemetrie**
-     (FrSky S.Port). Ausgenommen hiervon sind Fremdprotokolle wie Graupner HoTT,
-     die ihre Daten direkt über das V17-Zusatzskript einspeisen.
-
-2. **Starten des Konfigurations-Tools:**
-   * Drücken Sie lange auf die **SYS-Taste**, um in das Menü zu gelangen.
-   * Wählen Sie über die Page-Tasten den Reiter **"Tools"** (Werkzeuge) aus.
-   * Starten Sie das Skript **"Bluetooth_Bridge"** über das Scrollrad.
-   * Hier können Sie nun den Bluetooth-Modus (BLE/Classic) wechseln, den
-     Sendernamen ändern, die 4-stellige PIN eintippen oder das serielle
-     Logging (`debug_telemetry`) ein- und ausschalten.
-   * Nach dem Druck auf **"Speichern & Senden"** wird der Befehl per Telemetrie
-     an den ESP32 geschickt. Dieser speichert die Werte im Flash und startet
-     automatisch neu.
-
-3. **Zurückschalten für den Flug:**
-   * Nach erfolgreicher PIN- oder Namensänderung muss der serielle Port im
-     Hardware-Menü der TX16S wieder von *LUA* zurück auf *Telemetrie* gestellt
-     werden, damit der reguläre Telemetrie-Datenstrom zum ESP32 fließt.
-
 
 ## 📜 Lizenz
 
