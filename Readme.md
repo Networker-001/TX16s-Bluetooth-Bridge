@@ -149,7 +149,7 @@ Telemetriedaten korrekt an die Bluetooth Bridge zu übergeben.
 
 ## 🔧 Einbau & Hardware-Anschluss
 
-Das Modul nutzt den **UART 2** (Serial 2) des ESP32. Die Verbindung zur
+Das Modul nutzt den PIN 17 des ESP32. Die Verbindung zur
 Fernsteuerung wird über ein trennbares Kabel mit einer 4-Pin XH-Buchse realisiert.
 
 * **Die Modul-Verkabelung:** 
