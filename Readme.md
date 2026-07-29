@@ -122,7 +122,7 @@ Telemetriedaten korrekt an die Bluetooth Bridge zu übergeben.
    Bevor das Skript oder das Modul genutzt werden kann, müssen die internen
    Hardware-Schnittstellen der TX16S korrekt konfiguriert sein:
    * Gehen Sie über die **SYS-Taste** in die **Hardware-Einstellungen**.
-   * Suchen Sie den internen Anschluss (z. B. **UART2 / Bluetooth-Port**).
+   * Suchen Sie den internen Anschluss (z. B. **UART2 **).
    * Schalten Sie die **Spannungsversorgung (Power ON)** für diesen Port ein.
    * **Für das LUA-Einstelltool:** Stellen Sie den Port temporär auf **LUA**.
    * **Für den reinen Flugbetrieb:** Stellen Sie den Port fest auf **Telemetrie**
@@ -157,7 +157,7 @@ Fernsteuerung wird über ein trennbares Kabel mit einer 4-Pin XH-Buchse realisie
   Diese führt die Pins der seriellen Schnittstelle 2 und die Spannungsversorgung:
   ➔ **IO16 (RX2)**, **IO17 (TX2)**, **GND** und **VCC (5V)**.
 * **Der Anschluss in der Fernsteuerung:**
-  Das vieradrige Telemetriekabel ist auf der Hauptplatine intern am Bluetooth-Port
+  Das vieradrige Telemetriekabel ist auf der Hauptplatine intern am UART 2
   verlötet. Es wird unsichtbar durch das Gehäuse nach hinten in den externen
   Modulschacht (JR-Schacht) der RadioMaster TX16S geführt.
 * **Die Einbau-Optionen:**
