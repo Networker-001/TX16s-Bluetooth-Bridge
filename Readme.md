@@ -58,7 +58,7 @@ Das kompakte Modul liegt flach im leeren Modulschacht auf der Rückseite des
 Senders. Ein vieradriges Kabel wird intern an der Hauptplatine angelötet, nach
 hinten in den Schacht geführt und bleibt über einen XH-Stecker jederzeit trennbar.
 
-![Einbau im JR-Schacht](Dokumentation/Gehäuse.jpg)
+<img src="Dokumentation/Gehäuse.jpg" width="400" alt="Einbau in JR Schacht">
 
 ---
 
