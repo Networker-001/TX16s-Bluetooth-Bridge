@@ -39,8 +39,19 @@ des Moduls der Sender nicht geöffnet werden muss.
 ### Das vorbereitete Telemetriemodul:
 Das MINI32-Board geschützt im Schrumpfschlauch mit frei zugänglicher XH-Buchse.
 
-![Das ESP32 Modul](Dokumentation/Controller_oben.jpg)
-<img src="Dokumentation/Controller_unten.jpg" width="400" alt="Das ESP32 Modul">
+<table>
+  <tr>
+    <td>
+      <img src="Dokumentation/Controller unten.jpg" width="350" alt="D1 Mini ESP32 Unterseite">
+      <br><em>MINI32 Unterseite mit XH-Buchse</em>
+    </td>
+    <td>
+      <img src="Dokumentation/Controller_oben.jpg" width="350" alt="D1 Mini ESP32 Oberseite">
+      <br><em>MINI32 Oberseite</em>
+    </td>
+  </tr>
+</table>
+
 
 ### Unterbringung im externen JR-Modulschacht:
 Das kompakte Modul liegt flach im leeren Modulschacht auf der Rückseite des
