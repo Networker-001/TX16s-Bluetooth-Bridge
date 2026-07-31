@@ -34,17 +34,18 @@ Es müssen lediglich 4 dünne Kabel (Signal, Strom, Masse) gelötet werden.
 Die Schnittstelle ist am Sender von außen frei zugänglich, sodass zum Testen
 des Moduls der Sender nicht geöffnet werden muss.
 
+
+### Das vorbereitete Telemetriemodul:
+Das MINI32-Board geschützt im Schrumpfschlauch mit frei zugänglicher XH-Buchse.
+
+![Das ESP32 Modul](Dokumentation/Controller_oben.jpg)
+
 ### Unterbringung im externen JR-Modulschacht:
 Das kompakte Modul liegt flach im leeren Modulschacht auf der Rückseite des
 Senders. Ein vieradriges Kabel wird intern an der Hauptplatine angelötet, nach
 hinten in den Schacht geführt und bleibt über einen XH-Stecker jederzeit trennbar.
 
 ![Einbau im JR-Schacht](Dokumentation/Gehäuse.jpg)
-
-### Das vorbereitete Telemetriemodul:
-Das MINI32-Board geschützt im Schrumpfschlauch mit frei zugänglicher XH-Buchse.
-
-![Das ESP32 Modul](Dokumentation/Controller_oben.jpg)
 
 ---
 
