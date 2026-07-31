@@ -9,7 +9,7 @@ entwickelt.
 
 ### 📱 Das fertige Telemetrie-Cockpit im Betrieb:
 
-![Telemetry Viewer App im Einsatz](Dokumentation/Telemetry_Viewer_App.jpg)
+![Telemetry Viewer App im Einsatz](Dokumentation/Telemetry_Viewer.jpg)
 *Die Telemetry Viewer App auf dem Smartphone mit aktivem künstlichen Horizont.*
 
 ![Teleview Modul im Einsatz](Dokumentation/Teleview3.jpg)
