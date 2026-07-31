@@ -4,7 +4,7 @@
 Dieses ESP32-Projekt realisiert ein universelles Telemetrie-Gateway namens
 **Bluetooth Bridge**. Es wurde speziell für das selbst entwickelte
 [Teleview-Projekt](../Teleview) (wird noch veröffentlicht) und die offizielle
-[Telemetry Viewer App](https://google.com) 
+[Telemetry Viewer App](https://play.google.com/store/apps/details?id=crazydude.com.telemetry&hl=de)
 entwickelt.
 
 ### 📱 Das fertige Telemetrie-Cockpit im Betrieb:
@@ -37,7 +37,7 @@ Das kompakte Modul liegt flach im leeren Modulschacht auf der Rückseite des
 Senders. Ein vieradriges Kabel wird intern an der Hauptplatine angelötet, nach
 hinten in den Schacht geführt und bleibt über einen XH-Stecker jederzeit trennbar.
 
-![Einbau im JR-Schacht](Dokumentation/Controller oben.jpg)
+![Einbau im JR-Schacht](Dokumentation/Gehäuse.jpg)
 
 ### Das vorbereitete Telemetriemodul:
 Das MINI32-Board geschützt im Schrumpfschlauch mit frei zugänglicher XH-Buchse.
