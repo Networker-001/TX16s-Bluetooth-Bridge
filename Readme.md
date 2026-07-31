@@ -40,6 +40,7 @@ des Moduls der Sender nicht geöffnet werden muss.
 Das MINI32-Board geschützt im Schrumpfschlauch mit frei zugänglicher XH-Buchse.
 
 ![Das ESP32 Modul](Dokumentation/Controller_oben.jpg)
+<img src="Dokumentation/Controller_unten.jpg" width="400" alt="Das ESP32 Modul">
 
 ### Unterbringung im externen JR-Modulschacht:
 Das kompakte Modul liegt flach im leeren Modulschacht auf der Rückseite des
