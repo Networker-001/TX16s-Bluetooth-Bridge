@@ -42,7 +42,7 @@ Das MINI32-Board geschützt im Schrumpfschlauch mit frei zugänglicher XH-Buchse
 <table>
   <tr>
     <td>
-      <img src="Dokumentation/Controller unten.jpg" width="350" alt="D1 Mini ESP32 Unterseite">
+      <img src="Dokumentation/Controller_unten.jpg" width="350" alt="D1 Mini ESP32 Unterseite">
       <br><em>MINI32 Unterseite mit XH-Buchse</em>
     </td>
     <td>
