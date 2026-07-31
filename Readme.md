@@ -28,6 +28,7 @@ Das Modul funktioniert an jeder EdgeTX-Fernsteuerung mit freiem UART:
 ## 📸 Mechanischer Aufbau (Geringer Aufwand)
 
 Es müssen lediglich 4 dünne Kabel (Signal, Strom, Masse) gelötet werden.
+
 ![Geringer Verkablungsaufwand](Dokumentation/Kabel.jpg)
 
 ### Anschluss als externes Modul zum Test:
