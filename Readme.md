@@ -42,7 +42,7 @@ hinten in den Schacht geführt und bleibt über einen XH-Stecker jederzeit trenn
 ### Das vorbereitete Telemetriemodul:
 Das MINI32-Board geschützt im Schrumpfschlauch mit frei zugänglicher XH-Buchse.
 
-![Das ESP32 Modul](Dokumentation/Controller unten.jpg)
+![Das ESP32 Modul](Dokumentation/Controller_oben.jpg)
 
 ---
 
