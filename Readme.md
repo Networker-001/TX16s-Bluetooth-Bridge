@@ -37,7 +37,7 @@ des Moduls der Sender nicht geöffnet werden muss.
 
 
 ### Das vorbereitete Telemetriemodul:
-Das MINI32-Board geschützt im Schrumpfschlauch mit frei zugänglicher XH-Buchse.
+Das um eine XH-Buchse erweuterte MINI32-Board.
 
 <table>
   <tr>
