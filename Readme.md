@@ -12,7 +12,7 @@ entwickelt.
 ![Telemetry Viewer App im Einsatz](Dokumentation/Telemetry_Viewer_App.jpg)
 *Die Telemetry Viewer App auf dem Smartphone mit aktivem künstlichen Horizont.*
 
-![Teleview Modul im Einsatz](Dokumentation/Teleview_Modul_Anzeige.jpg)
+![Teleview Modul im Einsatz](Dokumentation/Teleview3.jpg)
 *Das selbst entwickelte Teleview-Modul (Lilygo T-Display-S3 Plus) im Live-Betrieb.*
 
 Das Modul funktioniert an jeder EdgeTX-Fernsteuerung mit freiem UART:
@@ -37,7 +37,7 @@ Das kompakte Modul liegt flach im leeren Modulschacht auf der Rückseite des
 Senders. Ein vieradriges Kabel wird intern an der Hauptplatine angelötet, nach
 hinten in den Schacht geführt und bleibt über einen XH-Stecker jederzeit trennbar.
 
-![Einbau im JR-Schacht](Dokumentation/Gehäuse.jpg)
+![Einbau im JR-Schacht](Dokumentation/Controller oben.jpg)
 
 ### Das vorbereitete Telemetriemodul:
 Das MINI32-Board geschützt im Schrumpfschlauch mit frei zugänglicher XH-Buchse.
