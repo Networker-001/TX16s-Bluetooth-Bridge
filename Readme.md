@@ -95,6 +95,6 @@ einsetzbar – ein realer Praxistest auf diesen Modellen steht jedoch noch aus.
 
 ---
 
-## 📜 Lizenz
+## Lizenz
 
 **MIT License** - Frei für alle Freunde von EdgeTX!
