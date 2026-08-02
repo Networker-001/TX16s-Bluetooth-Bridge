@@ -1,4 +1,4 @@
-# 🛰️ Bluetooth Bridge for RadioMaster (TX16S, Boxer, TX12, Zorro) & EdgeTX
+# Bluetooth Bridge for RadioMaster (TX16S, Boxer, TX12, Zorro) & EdgeTX
 ### (Optimized for Teleview Project & Telemetry Viewer App)
 
 Dieses ESP32-Projekt realisiert ein universelles Telemetrie-Gateway namens
@@ -7,7 +7,7 @@ Dieses ESP32-Projekt realisiert ein universelles Telemetrie-Gateway namens
 [Telemetry Viewer App](https://play.google.com/store/apps/details?id=crazydude.com.telemetry&hl=de)
 entwickelt.
 
-### 📱 Das fertige Telemetrie-Cockpit im Betrieb:
+### Das fertige Telemetrie-Cockpit im Betrieb:
 
 ![Telemetry Viewer App im Einsatz](Dokumentation/Telemetry_Viewer.jpg)
 
@@ -25,7 +25,7 @@ Das Modul funktioniert an jeder EdgeTX-Fernsteuerung mit freiem UART:
 
 ---
 
-## 📸 Mechanischer Aufbau (Geringer Aufwand)
+## Mechanischer Aufbau (Geringer Aufwand)
 
 Es müssen lediglich 4 dünne Kabel (Signal, Strom, Masse) gelötet werden.
 
@@ -62,7 +62,7 @@ hinten in den Schacht geführt und bleibt über einen XH-Stecker jederzeit trenn
 
 ---
 
-## 🚨 Warum dieses Modul benötigt wird
+## Warum dieses Modul benötigt wird
 
 Einfache "Serial-to-Serial" Bluetooth-Module übertragen die Daten zwar, haben
 jedoch **keinen Nutzen beim Empfänger**.
@@ -78,7 +78,7 @@ des [Teleview-Moduls](../Teleview) und der
 
 ---
 
-## 📖 Anleitung & Technische Details
+## Anleitung & Technische Details
 
 Die PlatformIO-Flashanleitung, Protokoll-Details (FrSky, Yaapu, Graupner HoTT)
 und die genauen EdgeTX-Hardware-Menüeinstellungen finden Sie hier:
